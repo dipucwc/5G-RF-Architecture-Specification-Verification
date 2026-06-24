@@ -1,4 +1,4 @@
-# 5 Whys — Root-Cause Analysis of EVM Degradation
+# 5 Whys– Root-Cause Analysis of EVM Degradation
 
 The 5 Whys method asks "Why?" repeatedly until the real cause surfaces, not just
 the visible symptom. Below, the technical failure chain is followed to a
@@ -15,7 +15,7 @@ Measured Result:     RMS EVM = 5.1 %
 Status:              FAILED
 ```
 
-## 5-Why chain (technical → process)
+## 5–Why chain (technical → process)
 
 | Level | Question | Answer |
 |-------|----------|--------|
@@ -43,8 +43,8 @@ verification condition:
 
 ## Why this matters
 
-A 5-Why that stops at "Why 3" would have produced a fix like "improve calibration"
-— treating a symptom. Following the chain to Why 5 reveals the fix belongs in the
+A 5-Why that stops at "Why 3" would have produced a fix like "improve calibration"–
+ treating a symptom. Following the chain to Why 5 reveals the fix belongs in the
 **specification process**: define the limits, budget the impairments, and make the
 requirement-to-test traceability mandatory. That is what the
 [corrective actions](../04-corrective-actions/) address.

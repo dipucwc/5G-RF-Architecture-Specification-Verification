@@ -1,6 +1,6 @@
 # 5G RF Architecture & System Specification– Process Map
 
-**One-line description:** A process map describing how 5G RF architecture
+**Description:** A process map describing how 5G RF architecture
 requirements are analyzed, specified, reviewed, verified, and updated through a
 specification-driven engineering workflow.
 
@@ -13,7 +13,7 @@ specifications for a 5G radio feature in a consistent and traceable way.
 
 Before analyzing *why a failure escaped*, it helps to show *how the specification
 work is supposed to flow*. The root-cause analysis in this repository points to
-gaps at specific points in this workflow — particularly the feasibility,
+gaps at specific points in this workflow– particularly the feasibility,
 specification-approval, and performance-verification decision points.
 
 ## Workflow

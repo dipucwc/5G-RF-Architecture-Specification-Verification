@@ -12,8 +12,8 @@ a working IQ-signal verification workflow in **MATLAB, Python, and C**.
 ![SixSigma](https://img.shields.io/badge/Six%20Sigma-Yellow%20Belt-yellow)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-> **In 2 minutes:** a 5G beamforming EVM failure is traced — via 5 Whys and a full
-> 8D — to a *specification cross-dependency gap*, not a one-off bug. It's then
+> **In 2 minutes:** a 5G beamforming EVM failure is traced-via 5 Whys and a full
+> 8D-to a *specification cross-dependency gap*, not a one-off bug. It's then
 > closed with corrective requirement updates, a traceability matrix, and a working
 > IQ verification workflow (timing / CFO / channel correction → EVM / ACLR) that
 > runs in MATLAB, Python, and C. Start with

@@ -1,7 +1,7 @@
 # 5G RF Architecture, Specification & Verification
 
 A complete, specification-driven engineering case study of a **5G RF beamforming /
-EVM verification failure** — traced from a measured performance issue to its root
+EVM verification failure**-traced from a measured performance issue to its root
 cause using structured problem-solving (process mapping, 5 Whys, 8D, RCA), closed
 with corrective specification updates and requirement traceability, and backed by
 a working IQ-signal verification workflow in **MATLAB, Python, and C**.

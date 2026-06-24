@@ -64,7 +64,7 @@ configuration — and fixes it at the specification and verification level.
 
 ```
 5G-RF-Architecture-Specification-Verification/
-├── README.md                          ← you are here
+├── README.md                       
 │
 ├── 01-process-map/
 │   └── rf-specification-process-map.md     5G RF spec workflow (feature → release)
@@ -81,7 +81,7 @@ configuration — and fixes it at the specification and verification level.
 │   ├── corrective-and-preventive-actions.md CAPA + requirement updates
 │   └── requirement-traceability-matrix.md   requirement → method → evidence
 │
-├── 05-verification-code/
+├── 05- rf_iq_verification- verification-code/
 │   ├── README.md
 │   ├── data/                                shared test vectors (all 3 languages)
 │   ├── matlab/rf_iq_verification.m

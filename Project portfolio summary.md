@@ -1,6 +1,6 @@
 # Portfolio Summary
 
-This repository is a public engineering portfolio project focused on 5G RF architecture, system specification, verification traceability, and structured root-cause analysis.
+This repository demonstrates a structured engineering workflow for 5G RF architecture, system specification, verification traceability, and root-cause analysis using process mapping, 5 Whys, 8D problem solving, corrective actions, preventive actions, and RF verification quality methods.
 
 It demonstrates the connection between:
 

@@ -1,4 +1,4 @@
-# 5G RF Architecture & System Specification — Process Map
+# 5G RF Architecture & System Specification– Process Map
 
 **One-line description:** A process map describing how 5G RF architecture
 requirements are analyzed, specified, reviewed, verified, and updated through a
@@ -101,7 +101,7 @@ END
 
 ## Source
 
-Best file name: `RF_Architecture_and_Specification_Process_Map.md`
-Best title: *5G RF Architecture and System Specification Workflow*
+File name: `RF_Architecture_and_Specification_Process_Map.md`
+Title: *5G RF Architecture and System Specification Workflow*
 
 See [`../docs/`](../docs/) for the original process-map documents.

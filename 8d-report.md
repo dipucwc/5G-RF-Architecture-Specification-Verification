@@ -22,7 +22,7 @@ through all eight disciplines.
 
 ---
 
-## D0 — Prepare and plan the 8D
+## D0– Prepare and plan the 8D
 
 The 8D is opened because the issue affects RF architecture/specification
 completeness and may impact verification consistency across BF/BFC, timing, and
@@ -35,7 +35,7 @@ carrier configuration combinations.
 | **Initial Scope** | Review RF architecture assumptions, BF/BFC specification, timing specification, carrier configuration rules, and verification traceability. |
 | **Immediate Goal** | Prevent repeated verification failure and clarify specification gaps before wider release. |
 
-## D1 — Establish the cross-functional team
+## D1– Establish the cross-functional team
 
 | Role | Responsibility | Expected Input |
 |------|----------------|----------------|
@@ -46,7 +46,7 @@ carrier configuration combinations.
 | Carrier Configuration Engineer | Review carrier setup, bandwidth, numerology, CA combinations, dependencies | Supported carrier combinations & constraints |
 | Verification/Test Engineer | Confirm test setup, logs, IQ captures, results, regression coverage | EVM/ACLR/beam metrics, logs, test evidence |
 
-## D2 — Describe the problem
+## D2– Describe the problem
 
 **Problem statement:** Under a specific 5G carrier configuration and timing
 condition, beamforming calibration did not fully compensate antenna/RF-path gain
@@ -63,7 +63,7 @@ beamforming, BFC, timing alignment, and carrier configuration.
 | Specification concern | BF/BFC, timing, and carrier configuration were specified separately; cross-dependency behavior and verification conditions were not fully defined. |
 | Operational impact | Inconsistent beam performance, coverage degradation, reduced link quality, repeated verification failures across product variants. |
 
-## D3 — Interim containment actions
+## D3– Interim containment actions
 
 | Containment Action | Purpose | Owner | Exit Criteria |
 |--------------------|---------|-------|---------------|
@@ -72,7 +72,7 @@ beamforming, BFC, timing alignment, and carrier configuration.
 | Collect IQ captures, calibration logs, timing logs, carrier setup parameters | Preserve evidence for RCA | Test + BF/BFC + Timing | Complete data package available |
 | Add temporary review note in RF specification | Inform design/verification of limitation while RCA open | RF Spec | Temporary note added and reviewed |
 
-## D4 — Root-cause analysis
+## D4– Root-cause analysis
 
 The analysis separates the **direct technical cause** from the
 **specification/process cause** and the **test-escape cause**.
@@ -95,7 +95,7 @@ The analysis separates the **direct technical cause** from the
 | **Specification** | Incomplete cross-dependency specification between beamforming, BFC, timing alignment, and carrier configuration. |
 | **Process** | Insufficient requirement traceability from RF architecture assumptions to specification limits, verification methods, and regression coverage. |
 
-## D5 — Define permanent corrective actions
+## D5– Define permanent corrective actions
 
 | Corrective Action | Targeted Cause | Specification/Architecture Update | Verification Update | Expected Result |
 |-------------------|----------------|-----------------------------------|---------------------|-----------------|
@@ -105,7 +105,7 @@ The analysis separates the **direct technical cause** from the
 | Update carrier configuration rules | Carrier config gap | Define carrier combinations needing special BF/BFC validation or restricted operation | Add carrier-specific regression matrix | Avoid unsupported/high-risk combinations |
 | Strengthen requirement traceability | Process gap | Link each requirement to verification method, test case, evidence, pass/fail threshold | Update traceability matrix and review checklist | Improved release confidence and auditability |
 
-## D6 — Implement and validate corrective actions
+## D6– Implement and validate corrective actions
 
 | Implementation Step | Owner | Validation Method | Pass Criteria | Evidence |
 |---------------------|-------|-------------------|---------------|----------|
@@ -115,7 +115,7 @@ The analysis separates the **direct technical cause** from the
 | Execute RF/system verification regression | Verification | Run failing case + reference cases | EVM, beam gain/phase, timing metrics pass | Measurement report + IQ-capture evidence |
 | Update traceability matrix | Spec + Verification | Requirement-to-test mapping review | Each requirement has method, threshold, evidence | Traceability matrix signed off |
 
-## D7 — Prevent recurrence
+## D7– Prevent recurrence
 
 | Preventive Action | Description | Where Applied | Success Indicator |
 |-------------------|-------------|---------------|-------------------|
@@ -125,7 +125,7 @@ The analysis separates the **direct technical cause** from the
 | Lessons-learned entry | Document failure mode, root cause, corrective action, updated rule | Knowledge base / RCA repository | Reused in future product/spec work |
 | Release-gate update | Require traceability coverage for RF performance requirements before release | Release readiness review | No release without requirement-test-evidence link |
 
-## D8 — Recognize team and close
+## D8– Recognize team and close
 
 | | |
 |---|---|
@@ -136,7 +136,7 @@ The analysis separates the **direct technical cause** from the
 
 ---
 
-## Appendix A — Requirement updates suggested by the 8D
+## Appendix A– Requirement updates suggested by the 8D
 
 | Requirement ID | Requirement Text | Verification Method | Metric/Evidence |
 |----------------|------------------|---------------------|-----------------|

@@ -1,6 +1,6 @@
 # Corrective & Preventive Actions (CAPA)
 
-The root-cause and escape analyses point to three layers of cause — technical,
+The root-cause and escape analyses point to three layers of cause– technical,
 specification, and process. The actions below close all three, with corrective
 actions fixing the current issue and preventive actions stopping recurrence.
 

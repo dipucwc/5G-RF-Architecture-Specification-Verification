@@ -1,7 +1,7 @@
 # 5G RF Architecture, Specification & Verification
 
 A complete, specification-driven engineering case study of a **5G RF beamforming /
-EVM verification failure**-traced from a measured performance issue to its root
+EVM verification failure**–traced from a measured performance issue to its root
 cause using structured problem-solving (process mapping, 5 Whys, 8D, RCA), closed
 with corrective specification updates and requirement traceability, and backed by
 a working IQ-signal verification workflow in **MATLAB, Python, and C**.
@@ -12,7 +12,7 @@ a working IQ-signal verification workflow in **MATLAB, Python, and C**.
 ![SixSigma](https://img.shields.io/badge/Six%20Sigma-Yellow%20Belt-yellow)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-> **In 2 minutes:** a 5G beamforming EVM failure is traced-via 5 Whys and a full
+> **A 5G beamforming EVM failure is traced-via 5 Whys and a full
 > 8D-to a *specification cross-dependency gap*, not a one-off bug. It's then
 > closed with corrective requirement updates, a traceability matrix, and a working
 > IQ verification workflow (timing / CFO / channel correction → EVM / ACLR) that
@@ -24,15 +24,15 @@ a working IQ-signal verification workflow in **MATLAB, Python, and C**.
 
 ## What this repository demonstrates
 
-- **Process mapping** — 5G RF specification workflow, feature → release
-- **5 Whys** — root-cause analysis of the EVM degradation
-- **8D** — full eight-discipline problem-solving report
-- **Root cause analysis** — technical / specification / process layers + test-escape
-- **Requirement traceability** — requirement → method → test → evidence
-- **RF architecture workflow** — TX/RX chain, antenna path, beamforming, calibration
-- **BF/BFC, timing, carrier configuration issue analysis** — the cross-dependency failure
-- **Corrective / preventive action planning** — CAPA + impairment budgeting
-- **Six Sigma Yellow Belt application** — methodology applied to a real RF problem
+- **Process mapping**– 5G RF specification workflow, feature → release
+- **5 Whys**– root-cause analysis of the EVM degradation
+- **8D** – full eight-discipline problem-solving report
+- **Root cause analysis** – technical / specification / process layers + test-escape
+- **Requirement traceability**– requirement → method → test → evidence
+- **RF architecture workflow** – TX/RX chain, antenna path, beamforming, calibration
+- **BF/BFC, timing, carrier configuration issue analysis** – the cross-dependency failure
+- **Corrective / preventive action planning** –CAPA + impairment budgeting
+- **Six Sigma Yellow Belt application** – methodology applied to a real RF problem
 
 It follows a single scenario through the **complete engineering loop** a system
 specification engineer owns:
@@ -160,7 +160,7 @@ core technical thinking of RF architecture, system specification, and verificati
 
 ## Author
 
-**Md Moklesur Rahman** — Senior 5G RF / PHY Algorithm & Wireless System Engineer
+**Md Moklesur Rahman**– Senior 5G RF / PHY Algorithm & Wireless System Engineer
 📍 Oulu, Finland · Six Sigma Yellow Belt
 [GitHub](https://github.com/dipucwc) ·
 [LinkedIn](https://linkedin.com/in/md-moklesur-rahman-65a63962) ·

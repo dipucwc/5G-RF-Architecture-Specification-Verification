@@ -146,7 +146,7 @@ The analysis separates the **direct technical cause** from the
 | RF-CC-REQ-001 | Carrier configurations that impact BF/BFC performance shall be explicitly defined, validated, or restricted. | Configuration matrix review + regression test | Supported/restricted carrier matrix |
 | RF-TRC-REQ-001 | Each RF performance requirement shall be linked to architecture assumptions, verification method, test case, and pass/fail criteria. | Traceability review | Requirement-to-test matrix |
 
-## Appendix B — Short description (GitHub/CV)
+## Appendix B 
 
 > 8D Root-Cause Analysis for 5G RF Architecture and System Specification: Applied
 > the 8D problem-solving method to a beamforming-related RF performance issue

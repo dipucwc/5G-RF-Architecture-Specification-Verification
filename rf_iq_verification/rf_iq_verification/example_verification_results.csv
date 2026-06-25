@@ -1,0 +1,8 @@
+metric,value,limit,status
+timing_offset_samples,43,-,-
+cfo_hz,1499.97,-,-
+channel_mag,0.9998,-,-
+channel_phase_deg,27.08,-,-
+evm_percent,1.723,3.5,PASS
+aclr_db,35.77,30.0,PASS
+overall,-,-,PASS

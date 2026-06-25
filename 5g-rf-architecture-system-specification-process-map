@@ -1,0 +1,5 @@
+# 5G RF Architecture & System Specification – Process Map
+
+This folder contains the process mapping case study for the 5G RF architecture, system specification, verification workflow, review loop, and RCA/update process.
+
+The process map shows how RF requirements move from system-level input to RF architecture analysis, specification preparation, cross-functional review, verification, troubleshooting, corrective action, and final release.

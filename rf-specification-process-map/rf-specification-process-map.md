@@ -89,7 +89,37 @@ START
   ▼
 END
 ```
+## Process Map Summary
 
+```mermaid
+flowchart TD
+    A([Start]) --> B[Collect system-level inputs]
+    B --> C[Analyze RF architecture scope]
+    C --> D[Identify RF performance requirements]
+    D --> E[Define RF architecture concept]
+    E --> F{Architecture feasible?}
+    F -- No --> F1[Re-analyze architecture constraints and update proposal]
+    F1 --> E
+    F -- Yes --> G[Define RF specification parameters]
+    G --> H[Perform MATLAB/Python-based analysis]
+    H --> I{Performance meets requirement?}
+    I -- No --> I1[Tune architecture, limits, or algorithm]
+    I1 --> H
+    I -- Yes --> J[Write RF system specification]
+    J --> K[Cross-functional specification review]
+    K --> L{Review approved?}
+    L -- No --> L1[Resolve review comments and update specification]
+    L1 --> K
+    L -- Yes --> M[Link requirements and update traceability]
+    M --> N[Support implementation and verification]
+    N --> O[Analyze verification results]
+    O --> P{Issue found?}
+    P -- Yes --> P1[Perform root-cause analysis]
+    P1 --> P2[Update specification, limits, assumptions, or verification method]
+    P2 --> N
+    P -- No --> Q[Finalize specification status and verification evidence]
+    Q --> R([End])
+```
 ## Decision points that matter for this case study
 
 | Step | Decision | Where the failure connects |

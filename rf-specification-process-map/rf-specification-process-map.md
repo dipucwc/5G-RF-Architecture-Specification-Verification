@@ -120,6 +120,7 @@ flowchart TD
     P -- No --> Q[Finalize specification status and verification evidence]
     Q --> R([End])
 ```
+```
 ## Decision points that matter for this case study
 
 | Step | Decision | Where the failure connects |
